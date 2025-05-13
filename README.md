@@ -11,7 +11,7 @@ Below are comparisons between the original figures from the original paper and t
 Here we compare the distribution of the Interdisciplinary Distance (IDD) for observed proposals.
 
 <p align="center">
-  <b>Original Figure (Placeholder)</b> | <b>Reproduced Figure</b>
+  <b>Original Figure</b> | <b>Reproduced Figure</b>
   <br>
   <img src="./assets/original/distribution.png" alt="Original Observed IDD Distribution" width="45%"/>
   &nbsp; &nbsp; &nbsp;
@@ -44,7 +44,7 @@ This comparison shows the relationship between a proposal's interdisciplinarity 
 
 **Explanation of Potential Differences:**
 1.  The observed IDD values themselves might differ slightly from the paper's due to approximations in the PSE calculation based on the FOR hierarchy. This difference in the underlying IDD values can lead to variations in the fitted trend and confidence intervals.
-2.  For Figure 2, the estimated effects and error bars are derived from a GLM implemented for ease in Python. The paper used a GLMM, and importantly, included covariates like number of investigators that are missing from this reproduction's data. This lack of covariates and the difference in model type contribute to variations in the estimated effects.
+2.  For Comparison 3, the estimated effects and error bars are derived from a GLM implemented for ease in Python. The paper used a GLMM, and importantly, included covariates like number of investigators that are missing from this reproduction's data. This lack of covariates and the difference in model type contribute to variations in the estimated effects.
 3.  Due to limitations in the available data, other analyses and figures presented in the original paper cannot be fully reproduced in this project.
 
 ## How to Use
