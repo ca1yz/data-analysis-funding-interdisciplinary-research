@@ -1,6 +1,6 @@
 # Data Analysis - Funding Interdisciplinary Research Reproduction
 
-This project aims to reproduce key findings from a Nature paper [Interdisciplinary research has consistently lower funding success](https://www.nature.com/articles/nature18315) on the relationship between interdisciplinarity and funding success. The analysis is based on the provided data and utilizes Python scripts for data processing and visualization.
+This project aims to reproduce key findings from a Nature paper [Interdisciplinary research has consistently lower funding success](https://www.nature.com/articles/nature18315) on the relationship between interdisciplinarity and funding success. The analysis is based on the provided data and utilizes Python (instead of R) for data processing and visualization.
 
 ## Reproduction Comparisons
 
@@ -20,7 +20,7 @@ Here we compare the distribution of the Interdisciplinary Distance (IDD) for obs
 
 ### Comparison 2:  Relationship between funding success and IDD score
 
-This figure shows the overall trend in funding success probability as interdisciplinarity (IDD) increases.
+This figure shows the overall trend in funding success probability as interdisciplinarity (IDD) increases and its 95% CI.
 
 <p align="center">
   <b>Original Figure</b> | <b>Reproduced Figure</b>
@@ -49,5 +49,5 @@ This comparison shows the relationship between a proposal's interdisciplinarity 
 
 ## How to Use
 
-Simly run all cells in `plot.ipynb`.
+Simply run all cells in `plot.ipynb`.
 
